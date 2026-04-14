@@ -1,0 +1,11 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main {
+  flex-grow: 1;
+  padding-top: 4.5rem; /* Accounts for fixed navbar */
+}
